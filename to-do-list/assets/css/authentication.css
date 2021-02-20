@@ -1,0 +1,35 @@
+/* AJAAA DI COPASS LELL BUAT REFERNSI BOLEH AWASS BAE IRA DI COPAS!!
+    TAK RUDAL IRA!!. FROM ALWAN */
+body {
+    /* background-image: url('../img/bgAuth.jpg'); */
+    background-color: rgb(15, 15, 15);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    width: 90%;
+    margin-top: 25%;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    body {
+        background-color: rgb(15, 15, 15);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .container {
+        background-color: #fff;
+        width: 25%;
+        margin-top: 10%;
+        box-shadow: 0px 0px 10px 0px #000;
+        padding: 25px;
+        border-radius: 10px;
+    }
+}
