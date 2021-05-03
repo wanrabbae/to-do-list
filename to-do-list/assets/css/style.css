@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* YG INI DIBUAT HP */
+
+body {
+  background-color: #032229;
+}
+
+.username p {
+  color: white;
+  margin-left: 15px;
+  margin-top: 31px;
+  font-size: 30px;
+  font-family: 'Viga', sans-serif;
+  line-height: 65px;
+}
+
+.link-name {
+  text-decoration: none;
+}
+
+.img-profile {
+  width: 50px;
+  border: transparent;
+  border-radius: 50%;
+  position: absolute;
+  left: 80%;
+  right: 4.65%;
+  top: 2.93%;
+  bottom: 86.52%;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  margin-top: 10%;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-family: 'Viga', sans-serif;
+}
+
+.input-div input {
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  height: 50px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.div {
+  width: 260px;
+}
+
+.plusButton {
+  padding: 5.7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 0px 10px 10px 0px;
+  background: #D3D3D3;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.wrapper {
+  padding: 10px;
+  height: 420px;
+  margin-top: 24px;
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  border: transparent;
+  box-shadow: 3px 3px 3px rgb(104, 101, 101);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+ul .work {
+  flex-grow: 1;
+}
+
+li {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px;
+  margin-bottom: 17px;
+  font-size: 20px;
+}
+
+#trash {
+  color: red;
+}
+
+#editList {
+  font-size: 20px;
+}
+
+/* YG INI DIBUAT HP */
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  .username p {
+    color: white;
+    margin-left: 51px;
+    margin-top: 31px;
+    font-size: 48px;
+    font-family: 'Viga', sans-serif;
+    line-height: 65px;
+  }
+
+  .img-profile {
+    width: 100px;
+    border: transparent;
+    border-radius: 50%;
+    position: absolute;
+    left: 85%;
+    top: 2.93%;
+    bottom: 86.52%;
+  }
+
+  .link-name {
+    text-decoration: none;
+  }
+
+  footer {
+    clear: both;
+    position: relative;
+    margin-top: 10%;
+  }
+
+  .input-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+  }
+
+  .input-div input {
+    padding: 0.5rem 1rem;
+    font-size: 44px;
+    height: 70px;
+    border-radius: 12px 0px 0px 12px;
+  }
+
+  .div {
+    width: 535px;
+  }
+
+  .plusButton {
+    padding: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 0px 12px 12px 0px;
+    background: #D3D3D3;
+  }
+
+  input:focus,
+  button:focus {
+    outline: none;
+  }
+
+  .wrapper {
+    padding: 20px;
+    height: 400px;
+    margin-top: 24px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 12px;
+    overflow: scroll;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-start;
+    border: transparent;
+    box-shadow: 3px 3px 3px rgb(104, 101, 101);
+    transition: 0.4s;
+    cursor: pointer;
+  }
+
+  ul .work {
+    flex-grow: 1;
+  }
+
+  li {
+    font-family: 'Roboto', sans-serif;
+    margin: 10px;
+    margin-bottom: 17px;
+    font-size: 36px;
+  }
+
+  #trash {
+    color: red;
+  }
+
+  #check {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+  }
+
+  #editList {
+    font-size: 25px;
+  }
+
+
+}
+
+/* <= JANGAN TARO DI BAWAH SINI CUKK */
+
+/* DESKTOP */

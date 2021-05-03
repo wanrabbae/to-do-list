@@ -1,0 +1,92 @@
+body {
+    background-color: #032229;
+}
+
+.container {
+    margin-top: 20px;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 25px;
+}
+
+.profile {
+    margin-top: 10%;
+}
+
+.img-profile {
+    width: 120px;
+    border: transparent;
+    border-radius: 50%;
+    top: 2.93%;
+    margin-left: 67.5px;
+}
+
+.input-group {
+    /* border: 1px solid rgb(53, 50, 50); */
+    font-size: 18px;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0;
+    outline: none;
+    border-bottom: 2px solid rgb(53, 50, 50);
+    font-size: 18px;
+}
+
+hr {
+    background-color: black;
+    padding: 0px;
+}
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+
+    .container {
+        width: 500px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .profile {
+        margin-top: 10%;
+    }
+
+    .img-profile {
+        width: 120px;
+        border: transparent;
+        border-radius: 50%;
+        top: 2.93%;
+        margin-left: 166px;
+    }
+
+    .input-group {
+        /* border: 1px solid rgb(53, 50, 50); */
+        font-size: 18px;
+    }
+
+    label {
+        font-size: 17px;
+    }
+
+    .form-control {
+        border: none;
+        border-radius: 0;
+        outline: none;
+        border-bottom: 2px solid rgb(53, 50, 50);
+        font-size: 20px;
+    }
+
+}
+
+/* DESKTOP */

@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(15, 15, 15);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-box {
+    background-color: #fff;
+    width: 90%;
+    margin-top: 20%;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.register-box {
+    background-color: #fff;
+    width: 90%;
+    margin-top: 5%;
+    box-shadow: 0px 0px 10px 0px #000;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    body {
+        background-color: rgb(15, 15, 15);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .login-box {
+        background-color: #fff;
+        width: 25%;
+        margin-top: 10%;
+        box-shadow: 0px 0px 10px 0px #000;
+        padding: 25px;
+        border-radius: 10px;
+    }
+
+    .register-box {
+        background-color: #fff;
+        width: 25%;
+        margin-top: 3.5%;
+        box-shadow: 0px 0px 10px 0px #000;
+        padding: 25px;
+        border-radius: 10px;
+    }
+}
